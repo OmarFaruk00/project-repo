@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Faugei</title>
+  <link rel="icon" type="image/png" href="assets/logo.png" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    integrity="sha512-...."
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+</head>
+<body class="bg-gray-100">
+  <nav class="bg-[#f6f8ff] shadow-md py-3 px-5">
+    <div class="max-w-7xl mx-auto flex items-center justify-between">
+      <!-- Logo -->
+      <div class="flex items-center space-x-2">
+        <img src="assets/logo.png" alt="Logo" class="h-8 w-auto" />
+        <span class="text-lg font-semibold text-orange-600"></span>
+      </div>
+
+      <!-- Desktop Menu -->
+<div class="hidden md:flex items-center space-x-6 text-sm text-gray-700">
+  <a href="#" class="font-bold text-black">Home</a>
+  <a href="#">Shop</a>
+  <a href="#">About us</a>
+
+  <!-- Desktop Cart Icon -->
+  <div class="flex items-center space-x-1">
+    <i class="fas fa-shopping-cart text-gray-800 text-base"></i>
+    <span>Cart ($50)</span>
+  </div>
+</div>
+
+<!-- Mobile Cart Only -->
+<div class="md:hidden flex items-center space-x-1 text-sm text-gray-700">
+  <i class="fas fa-shopping-cart text-gray-800 text-base"></i>
+  <span>Cart ($50)</span>
+</div>
+
+  </nav>
+</body>
+</html>
